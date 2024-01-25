@@ -124,7 +124,6 @@ font-weight: lighter;
         line-height: 1.5;
     }
     
-  
     
     input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
         font-size: 0.75em;
@@ -233,4 +232,59 @@ font-weight: lighter;
     input[type=checkbox]:checked + label {
       color: #f00;
       font-style: normal;
+    }
+
+    @media only screen and (max-width: 768px) {
+        body {
+            padding-top: 56px;
+        }
+
+        .banner {
+            padding: 100px 0;
+        }
+
+        .banner p {
+            padding: 20px;
+        }
+
+        .our-vision {
+            width: 100%;
+        }
+
+        .container01,
+        .footer,
+        #contact,
+        .input-container {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h4 {
+            font-size: 16px;
+        }
+
+        .styled-input {
+            width: 100%;
+        }
+
+        .styled-input.wide {
+            width: 100%;
+        }
+
+        input,
+        textarea {
+            padding: 15px;
+        }
+
+        .submit-btn {
+            width: 100%;
+        }
+
+        input[type=checkbox] + label,
+        input[type=checkbox]:checked + label {
+            font-size: 14px;
+        }
     }
